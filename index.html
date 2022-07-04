@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="This is where your description goes">
+    	<meta name="keywords" content="one, two, three">
+
+		<title>Title in the tab</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+<!--Have multiple fields for interests with categories so it can be put into the correct query format-->
+		<h1>So You Like This</h1>
+		<div>
+            <div>
+                <form class = "form-inline" role="form">
+                    <div class="form-group">
+                        <input type="text" id="interest1">
+                    </div class="category-list">
+                    <div class="form-group">
+                        <select name="categories" id="categories1">
+                            <option value="Band">Band</option>
+                            <option value="Movie">Movie</option>
+                            <option value="Show">Show</option>
+                            <option value="Podcast">Podcast</option>
+                            <option value="Book">Book</option>
+                            <option value="Author">Author</option>
+                            <option value="Game">Game</option>
+                        </select>
+                    </div> 
+                </form>
+            </div>
+            <div class="hidden">
+                <form class = "form-inline" role="form">
+                    <div class="form-group">
+                        <input type="text" id="interest2">
+                    </div class="category-list">
+                    <div class="form-group">
+                        <select name="categories" id="categories">
+                            <option value="Band">Band</option>
+                            <option value="Movie">Movie</option>
+                            <option value="Show">Show</option>
+                            <option value="Podcast">Podcast</option>
+                            <option value="Book">Book</option>
+                            <option value="Author">Author</option>
+                            <option value="Game">Game</option>
+                        </select>
+                    </div> 
+                </form>
+            </div>
+            <div class="hidden">
+                <form class = "form-inline" role="form">
+                    <div class="form-group">
+                        <input type="text" id="interest3">
+                    </div class="category-list">
+                    <div class="form-group">
+                        <select name="categories" id="categories3">
+                            <option value="Band">Band</option>
+                            <option value="Movie">Movie</option>
+                            <option value="Show">Show</option>
+                            <option value="Podcast">Podcast</option>
+                            <option value="Book">Book</option>
+                            <option value="Author">Author</option>
+                            <option value="Game">Game</option>
+                        </select>
+                    </div> 
+                </form>
+            </div>
+            <button type="button" name="button">Submit</button>
+        </div>
+        
+        <div class = 'displaySuggestions'>
+            <ul></ul>    
+        </div>
+
+		<script type="text/javascript" src="main.js"></script>
+	</body>
+</html>
